@@ -1,0 +1,45 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+*.pyo
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+env.bak/
+venv.bak/
+
+# Redis
+dump.rdb
+redis-stable/
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# FastAPI
+*.log
+uvicorn_log/
